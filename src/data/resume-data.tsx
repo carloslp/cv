@@ -20,189 +20,125 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Juan Lopez",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Juan Carlos Lopez Palos",
+  initials: "JC",
+  location: "Culiacan, Sin.",
+  locationLink: "#",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Chief Solutioning Coppel Argentina.",
   summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Me apasiona aprender nuevas tecnologías y aplicarlas para resolver problemas del mundo real. Valoro el trabajo en equipo, la innovación y la satisfacción del cliente. Puedo aportar diversas perspectivas y experiencias al equipo. También facilito metodologías y prácticas ágiles, para garantizar la entrega oportuna y de calidad de los resultados del proyecto. Colaboro y me comunico con diferentes partes interesadas, como desarrolladores, evaluadores, analistas de negocios y gerentes de operación, para comprender sus necesidades, expectativas y comentarios.",
+  avatarUrl: "/img.jpg",
+  personalWebsiteUrl: "https://juanlopez.dev",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "me@juanlopez.dev",
+    tel: "",
     social: [
       {
-        name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
-        icon: GitHubIcon,
-      },
-      {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/carloslp0/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+      }
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Universidad TecMilenio",
+      degree: "Maestria en Gestion de Tecnologias de la Informacion",
+      start: "2021",
+      end: "2023",
+    },
+    {
+      school: "Instituto Tecnológico Superior de Guasave",
+      degree: "Ingenieria en Sistemas Computacionales, Base de Datos",
+      start: "2014",
+      end: "2018",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
+      company: "Coppel SA de CV",
+      link: "https://coppel.com",
+      badges: [],
+      title: "Chief Solutioning",
+      logo: null,
+      start: "Jul 2024",
       end: null,
       description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
+        "",
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Coppel SA de CV",
+      link: "https://coppel.com",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      title: "Lider de Proyecto / Scrum Master",
+      logo: null,
+      start: "Jun 2022",
+      end: "Sep 2024",
       description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
+        "",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "Coppel SA de CV",
+      link: "https://coppel.com",
       badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Developed and tested software for LTE base stations",
+      title: "Arquitecto de Software",
+      logo: null,
+      start: "Oct 2020",
+      end: "Jun 2022",
+      description:
+        "",
+    },
+    {
+      company: "Coppel SA de CV",
+      link: "https://coppel.com",
+      badges: [],
+      title: "Programador",
+      logo: null,
+      start: "Mar 2019",
+      end: "Oct 2020",
+      description:
+        "",
+    },
+    {
+      company: "GANADERA RUBIO'S, S.P.R. DE R.L.",
+      link: "#",
+      badges: [],
+      title: "Auxiliar de Sistemas",
+      logo: null,
+      start: "Feb 2019",
+      end: "Mar 2019",
+      description: "",
+    },
+    {
+      company: "El Tiempo Periódico de Sinaloa · Profesional independiente",
+      link: "https://eltiempodesinaloa.com/",
+      badges: ["Remoto"],
+      title: "Auxiliar de Sistemas",
+      logo: null,
+      start: "Ene 2018",
+      end: null,
+      description: "",
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "Docker",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Git",
+    "Google Cloud Platform",
+    "NGINX",
+    "PaaS",
+    "PHP",
+    "PostgreSQL"
   ],
   projects: [
     {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "Migración on premise a Cloud GCP",
+      techStack: ["Lider de Proyectos","GKE", "Docker"],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "Personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers, and planners generator",
+        "Migracion de servicio r",
       logo: Minimal,
       link: {
         label: "useminimal.com",
@@ -210,78 +146,71 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Migración PDAs de inventarios de Tienda",
+      techStack: ["Lider de Proyectos", "Android", "PHP"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        "Migracion de PDA Windows Mobile a Android.",
+      logo: null
+    },
+    {
+      title: "Inventarios Automáticos y Re-Impresión de Etiquetas Web",
+      techStack: ["Lider de Proyectos", "Angular", "PHP", "Microservicios"],
+      description: "Herramienta para inventario de ropa no programado y migracion de etiquetas de ropa a web a demanda.",
+      logo: null
+    },
+    {
+      title: "Administrador para delegación de huellas de gerente",
+      techStack: ["Lider de Proyecto", "Angular", "PHP", "C++","PostgreSQL","Microservicios"],
+      description:
+        "Administrador de permisos de gerentes temporales para colaboradores especificos.",
+      logo: null
+    },
+    {
+      title: "Migración Solicitud de Crédito y Llamadas CAT",
+      techStack: ["Lider de Proyecto", "PHP","JavaScript", "C++","PostgreSQL"],
+      description: "Remediacion de vulnerabilidades siguiendo n-2, sistema operativo y lenguajes.",
+      logo: null,
+    },
+    {
+      title: "QR MercadoPago en Punto de Venta.",
+      techStack: ["Arquitecto de Software", "Angular","TypeScript", "C++", "Java", "PostgreSQL", "Docker"],
+      description:
+        "Definicion de Arquitectura e integracion de QR de MercadoPago en Punto de Venta Coppel.",
+      logo: null,
+    },
+    {
+      title: "Crédito Coppel (Argentina) en la Web",
+      techStack: ["Arquitecto de Software","C++", "Java", "PostgreSQL"],
+      description:
+        "Definicion de Arquitectura y codificacion de Apis para venta credito de cliente Coppel en Internet.",
+      logo: null,
+    },
+    {
+      title: "Incorporación de Descuentos a Afiliados",
+      techStack: ["Desarrollador","Angular", "TypeScript", "C++","PostgreSQL"],
+      description:
+        "Modulo que permite aplicar descuentos de afialiados a articulos de ropa y muebles.",
+      logo: null,
+    },
+    {
+      title: "Unificación de Sistemas en Tienda",
+      techStack: ["Desarrollador","Angular", "TypeScript", "C++", "Nginx", "PostgreSQL"],
+      description:
+        "Unificación de sistemas de venta de ropa y muebles, asi como modulo de complementarios a la venta.",
+      logo: null,
+    },
+    {
+      title: "El Tiempo Periódico de Sinaloa",
+      techStack: [
+        "WordPress",
+      ],
+      description:
+        "Periódico local",
+      logo: null,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "eltiempodesinaloa.com",
+        href: "https://eltiempodesinaloa.com/",
       },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
