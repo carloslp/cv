@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Chief Solutioning Coppel Argentina.",
   summary:
-    "Me apasiona aprender nuevas tecnologías y aplicarlas para resolver problemas del mundo real. Valoro el trabajo en equipo, la innovación y la satisfacción del cliente. Puedo aportar diversas perspectivas y experiencias al equipo. También facilito metodologías y prácticas ágiles, para garantizar la entrega oportuna y de calidad de los resultados del proyecto. Colaboro y me comunico con diferentes partes interesadas, como desarrolladores, evaluadores, analistas de negocios y gerentes de operación, para comprender sus necesidades, expectativas y comentarios.",
+    "I'm passionate about learning new technologies and applying them to solve real-world problems. I value teamwork, innovation, and customer satisfaction. I can bring diverse perspectives and experiences to the team. I also facilitate agile methodologies and practices to ensure the timely and quality delivery of project results. I collaborate and communicate with different stakeholders, such as developers, testers, business analysts, and operations managers, to understand their needs, expectations, and feedback",
   avatarUrl: "/img.jpg",
   personalWebsiteUrl: "https://juanlopez.dev",
   contact: {
@@ -44,13 +44,13 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Universidad TecMilenio",
-      degree: "Maestria en Gestion de Tecnologias de la Informacion",
+      degree: "Master's in Information Technology Management / Maestria en Gestion de Tecnologias de la Informacion",
       start: "2021",
       end: "2023",
     },
     {
       school: "Instituto Tecnológico Superior de Guasave",
-      degree: "Ingenieria en Sistemas Computacionales, Base de Datos",
+      degree: "Computer Systems Engineering, Database / Ingenieria en Sistemas Computacionales, Base de Datos",
       start: "2014",
       end: "2018",
     },
@@ -59,8 +59,8 @@ export const RESUME_DATA = {
     {
       company: "Coppel SA de CV",
       link: "https://coppel.com",
-      badges: [],
-      title: "Chief Solutioning",
+      badges: ['Chief Solutioning'],
+      title: "Software Development Manager / Gerente de Desarrollo",
       logo: null,
       start: "Jul 2024",
       end: null,
@@ -82,7 +82,7 @@ export const RESUME_DATA = {
       company: "Coppel SA de CV",
       link: "https://coppel.com",
       badges: [],
-      title: "Arquitecto de Software",
+      title: "Software Architect / Arquitecto de Software",
       logo: null,
       start: "Oct 2020",
       end: "Jun 2022",
@@ -93,7 +93,7 @@ export const RESUME_DATA = {
       company: "Coppel SA de CV",
       link: "https://coppel.com",
       badges: [],
-      title: "Programador",
+      title: "Developer / Programador",
       logo: null,
       start: "Mar 2019",
       end: "Oct 2020",
@@ -104,7 +104,7 @@ export const RESUME_DATA = {
       company: "GANADERA RUBIO'S, S.P.R. DE R.L.",
       link: "#",
       badges: [],
-      title: "Auxiliar de Sistemas",
+      title: "Systems Assistant / Auxiliar de Sistemas",
       logo: null,
       start: "Feb 2019",
       end: "Mar 2019",
@@ -114,7 +114,7 @@ export const RESUME_DATA = {
       company: "El Tiempo Periódico de Sinaloa · Profesional independiente",
       link: "https://eltiempodesinaloa.com/",
       badges: ["Remoto"],
-      title: "Auxiliar de Sistemas",
+      title: "Webmaster",
       logo: null,
       start: "Ene 2018",
       end: null,
