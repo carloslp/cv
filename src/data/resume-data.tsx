@@ -135,68 +135,64 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Migración on premise a Cloud GCP",
+      title: "Migration from on-premise to GCP Cloud.",
       techStack: ["Lider de Proyectos","GKE", "Docker"],
       description:
-        "Migracion de servicio r",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
+        "",
+      logo: null,
     },
     {
-      title: "Migración PDAs de inventarios de Tienda",
+      title: "Migration of Store Inventory PDAs",
       techStack: ["Lider de Proyectos", "Android", "PHP"],
       description:
-        "Migracion de PDA Windows Mobile a Android.",
+        "Migration of Windows Mobile PDAs to Android.",
       logo: null
     },
     {
-      title: "Inventarios Automáticos y Re-Impresión de Etiquetas Web",
+      title: "Automatic Inventory and Web Label Re-printing",
       techStack: ["Lider de Proyectos", "Angular", "PHP", "Microservicios"],
-      description: "Herramienta para inventario de ropa no programado y migracion de etiquetas de ropa a web a demanda.",
+      description: "Tool for unscheduled clothing inventory and on-demand migration of clothing labels to the web..",
       logo: null
     },
     {
-      title: "Administrador para delegación de huellas de gerente",
+      title: "Administrator for manager fingerprint delegation.",
       techStack: ["Lider de Proyecto", "Angular", "PHP", "C++","PostgreSQL","Microservicios"],
       description:
-        "Administrador de permisos de gerentes temporales para colaboradores especificos.",
+        "Administrator of temporary manager permissions for designated employees.",
       logo: null
     },
     {
-      title: "Migración Solicitud de Crédito y Llamadas CAT",
+      title: "Migration of Credit Application and CAT Calls.",
       techStack: ["Lider de Proyecto", "PHP","JavaScript", "C++","PostgreSQL"],
-      description: "Remediacion de vulnerabilidades siguiendo n-2, sistema operativo y lenguajes.",
+      description: "Fixing vulnerabilities based on an n-2 rule (minimum two versions back from the latest) for operating systems and coding languages.",
       logo: null,
     },
     {
-      title: "QR MercadoPago en Punto de Venta.",
+      title: "MercadoPago QR at Point of Sale.",
       techStack: ["Arquitecto de Software", "Angular","TypeScript", "C++", "Java", "PostgreSQL", "Docker"],
       description:
-        "Definicion de Arquitectura e integracion de QR de MercadoPago en Punto de Venta Coppel.",
+        "Definition of Architecture and integration of MercadoPago QR at Coppel Point of Sale.",
       logo: null,
     },
     {
-      title: "Crédito Coppel (Argentina) en la Web",
+      title: "Coppel Credit (Argentina) on the Web",
       techStack: ["Arquitecto de Software","C++", "Java", "PostgreSQL"],
       description:
-        "Definicion de Arquitectura y codificacion de Apis para venta credito de cliente Coppel en Internet.",
+        "Definition of Architecture and coding of APIs for Coppel customer credit sales on the Internet.",
       logo: null,
     },
     {
-      title: "Incorporación de Descuentos a Afiliados",
+      title: "Incorporation of Discounts for Affiliates",
       techStack: ["Desarrollador","Angular", "TypeScript", "C++","PostgreSQL"],
       description:
-        "Modulo que permite aplicar descuentos de afialiados a articulos de ropa y muebles.",
+        "Module that allows applying affiliate discounts to clothing and furniture items.",
       logo: null,
     },
     {
-      title: "Unificación de Sistemas en Tienda",
+      title: "Unification of Store Systems",
       techStack: ["Desarrollador","Angular", "TypeScript", "C++", "Nginx", "PostgreSQL"],
       description:
-        "Unificación de sistemas de venta de ropa y muebles, asi como modulo de complementarios a la venta.",
+        "Consolidation of clothing and furniture sales systems, along with a module for complementary sales.",
       logo: null,
     },
     {
