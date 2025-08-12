@@ -60,7 +60,7 @@ export const RESUME_DATA = {
       company: "Coppel SA de CV",
       link: "https://coppel.com",
       badges: [],
-      title: "Chief Solutioning",
+      title: "Chief Solutioning / Gerente de Arquitecto de Soluciones",
       logo: null,
       start: "Jul 2024",
       end: null,
@@ -212,5 +212,26 @@ export const RESUME_DATA = {
         href: "https://eltiempodesinaloa.com/",
       },
     },
+  ],
+  certifications: [
+    {
+      title: "Cloud Digital Leader Certification",
+      description: "Un Cloud Digital Leader puede expresar con claridad las capacidades de los productos y servicios principales de Google Cloud y cómo se benefician las organizaciones. ",
+      techStack: ["Artificial Intelligence (AI)", "Cloud Computing", "Cloud Digital Leader", "Cloud Security", "Data Governance", "Digital Transformation", "Google Cloud", "Google Cloud Platform (GCP)", "Security and Trust"],
+      link: {
+        label: "www.credly.com",
+        href: "https://www.credly.com/badges/03b321ec-4018-49bc-8b7a-f7b689df115c/linked_in?t=sxgblq"
+      }
+    },
+    {
+
+      title: "Ciberseguridad con Cloud Computing",
+      description: "Introduce conceptos como software como servicio (SaaS), plataforma como servicio (PaaS) e infraestructura como servicio (IaaS) y los diferentes modelos de implementación disponibles.",
+      techStack: ["Seguridad de Cloud", "Ciberseguridad"],
+      link: {
+        label: "linkedin.com",
+        href: "https://www.linkedin.com/learning/certificates/8e031a17e192f2bdabae652f7e68b1000c3f525cd133cac5fe86f56dc0929172?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bg6LmFkYKTleD4RjrM70hxA%3D%3D"
+      }
+    }
   ],
 } as const;

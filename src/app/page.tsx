@@ -172,8 +172,24 @@ export default function Page() {
             })}
           </div>
         </Section>
-
         <Section className="print-force-new-page scroll-mb-16">
+          <h2 className="text-xl font-bold">Certificaciones</h2>
+          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+            {RESUME_DATA.certifications?.map((certification) => {
+              return (
+                <ProjectCard
+                  key={certification.title}
+                  title={certification.title}
+                  description={certification.description}
+                  tags={certification.techStack}
+                  link={"link" in certification ? certification.link.href : undefined}
+                />
+              );
+            })}
+          </div>
+        </Section>
+
+        <Section className="scroll-mb-16">
           <h2 className="text-xl font-bold">Proyectos</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
@@ -189,9 +205,11 @@ export default function Page() {
             })}
           </div>
         </Section>
+        
+
       </section>
 
-      <CommandMenu
+      {/* <CommandMenu
         links={[
           {
             url: RESUME_DATA.personalWebsiteUrl,
@@ -202,7 +220,7 @@ export default function Page() {
             title: socialMediaLink.name,
           })),
         ]}
-      />
+      /> */}
     </main>
   );
 }
