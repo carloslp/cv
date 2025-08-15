@@ -14,6 +14,8 @@ RUN npm install
 
 # Copy local code to the container image.
 COPY . .
+# Ensure profile.jpeg is available in the build output (public folder)
+RUN cp src/data/profile.jpeg public/profile.jpeg
 
 # Build the app
 RUN npm run build

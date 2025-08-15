@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "Chief Solutioning Coppel Argentina.",
   summary:
     "Me apasiona aprender nuevas tecnologías y aplicarlas para resolver problemas del mundo real. Valoro el trabajo en equipo, la innovación y la satisfacción del cliente. Puedo aportar diversas perspectivas y experiencias al equipo. También facilito metodologías y prácticas ágiles, para garantizar la entrega oportuna y de calidad de los resultados del proyecto. Colaboro y me comunico con diferentes partes interesadas, como desarrolladores, evaluadores, analistas de negocios y gerentes de operación, para comprender sus necesidades, expectativas y comentarios.",
-  avatarUrl: "/img.jpg",
+  avatarUrl: "/profile.jpeg",
   personalWebsiteUrl: "https://juanlopez.dev",
   contact: {
     email: "me@juanlopez.dev",
