@@ -4,6 +4,8 @@ import { Inter } from "next/font/google";
 
 import "./globals.css";
 import React from "react";
+import { LanguageProvider } from "@/lib/language-context";
+import { LanguageSelector } from "@/components/LanguageSelector";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,6 +18,8 @@ const inter = Inter({
   display: "swap",
 });
 
+
+
 export default function RootLayout({
   children,
 }: {
@@ -23,7 +27,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
-      <body>{children}</body>
+      <body>
+        <LanguageProvider>
+          <LanguageSelector />
+          {children}
+        </LanguageProvider>
+      </body>
       <Analytics />
     </html>
   );
