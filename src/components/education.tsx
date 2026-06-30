@@ -30,7 +30,7 @@ export function Education({ entries }: EducationProps) {
               {entry.location}
             </p>
           )}
-          <p className="text-sm italic text-muted-foreground print:text-[10pt] print:text-black print:not-italic">
+          <p className="text-sm italic text-muted-foreground print:text-[10pt] print:text-black">
             {entry.degree}
           </p>
         </div>

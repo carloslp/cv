@@ -81,7 +81,7 @@ export default function Page() {
               )}
               {data.contact.social.map((social) => (
                 <a key={social.name} href={social.url}>
-                  <span className="underline">{social.name}: {social.url}</span>
+                  <span className="underline">{social.name}</span>
                 </a>
               ))}
             </div>
@@ -146,7 +146,7 @@ export default function Page() {
           <h2 className="text-xl font-bold print:border-b print:border-black print:pb-0.5 print:text-[12pt] print:uppercase print:tracking-widest">
             {language === "es" ? "Certificaciones" : "Certifications"}
           </h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:mx-0 print:grid-cols-1 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+          <div className="-mx-3 grid grid-cols-1 gap-3 print:mx-0 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {data.certifications?.map((certification) => (
               <ProjectCard
                 key={certification.title}
@@ -164,7 +164,7 @@ export default function Page() {
           <h2 className="text-xl font-bold print:border-b print:border-black print:pb-0.5 print:text-[12pt] print:uppercase print:tracking-widest">
             {language === "es" ? "Proyectos" : "Projects"}
           </h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:mx-0 print:grid-cols-1 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+          <div className="-mx-3 grid grid-cols-1 gap-3 print:mx-0 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {data.projects.map((project) => (
               <ProjectCard
                 key={project.title}
