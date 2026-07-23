@@ -218,6 +218,22 @@ export const RESUME_DATA = {
         link: {
           label: "linkedin.com",
           href: "https://www.linkedin.com/learning/certificates/8e031a17e192f2bdabae652f7e68b1000c3f525cd133cac5fe86f56dc0929172?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bg6LmFkYKTleD4RjrM70hxA%3D%3D"
+        },
+      {
+        title: "Problem Solving",
+        description: "Problem Solving es un curso que te ayudará a definir y estructurar problemas de forma efectiva, aplicando metodologías claras para entender su origen y alcance.",
+        techStack: ["MECE", "Matrices de priorización", "Análisis de Causa Raíz"],
+        link: {
+          label: "linkedin.com",
+          href: "https://certificates.kurios.la/problem-solving-juan-carlos-lopez-palos"
+        },
+      {
+        title: "Data Storytelling",
+        description: "Data Storytelling es un curso que te ayudará a analizar data y presentarla de manera persuasiva a distintos tipos de stakeholders.",
+        techStack: ["SCR", "Análisis de Datos Exploratorio","Data Cleaning"],
+        link: {
+          label: "linkedin.com",
+          href: "https://certificates.kurios.la/data-storytelling-juan-carlos-lopez-palos"
         }
       }
     ],
