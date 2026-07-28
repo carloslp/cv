@@ -27,7 +27,7 @@ export const RESUME_DATA = {
     locationLink: "#",
     about: "Chief Solutioning Coppel Argentina.",
     summary:
-      "Me apasiona aprender nuevas tecnologías y aplicarlas para resolver problemas del mundo real. Valoro el trabajo en equipo, la innovación y la satisfacción del cliente. Puedo aportar diversas perspectivas y experiencias al equipo. También facilito metodologías y prácticas ágiles, para garantizar la entrega oportuna y de calidad de los resultados del proyecto. Colaboro y me comunico con diferentes partes interesadas, como desarrolladores, evaluadores, analistas de negocios y gerentes de operación, para comprender sus necesidades, expectativas y comentarios.",
+      "Ingeniero en Sistemas Computacionales con Maestría en Gestión de Tecnologías de la Información y más de siete años de experiencia. He desarrollado mi carrera evolucionando desde desarrollador hasta Gerente de Arquitectura de Soluciones, liderando equipos multidisciplinarios, definiendo estrategias tecnológicas y colaborando con ejecutivos, áreas de negocio y equipos de ingeniería para convertir objetivos estratégicos en soluciones escalables, seguras y orientadas al negocio.",
     avatarUrl: "https://github.com/carloslp/cv/blob/00c48d9ec3543941b119012e7d178a4edce8f6ca/src/data/profile.jpeg?raw=true",
     personalWebsiteUrl: "https://juanlopez.dev",
     contact: {
@@ -110,11 +110,11 @@ export const RESUME_DATA = {
         company: "El Tiempo Periódico de Sinaloa · Profesional independiente",
         link: "https://eltiempodesinaloa.com/",
         badges: ["Remoto"],
-        title: "Auxiliar de Sistemas",
+        title: "Consultor de Tecnología (Freelance)",
         logo: null,
         start: "Ene 2018",
         end: null,
-        description: "",
+        description: "• Administración y evolución de plataformas WordPress.\n• Implementación de mejoras enfocadas en seguridad, disponibilidad y mantenimiento.\n• Asesoría tecnológica y soporte para garantizar la continuidad operativa.",
       },
     ],
     skills: [
