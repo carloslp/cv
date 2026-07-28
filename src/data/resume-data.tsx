@@ -142,7 +142,7 @@ export const RESUME_DATA = {
       {
         title: "DIVAS - Development, Integration & Verification Asssistant System",
         techStack: ["Gerente de Arquitectura de Soluciones TI","Gemini", "N8N"],
-        description: "Lideré el desarrollo, integración y verificación del sistema DIVAS, asegurando la calidad y eficiencia en cada etapa del proyecto.",
+        description: "Lideré el desarrollo, integración y verificación del sistema DIVAS, asegurando la calidad y eficiencia en cada etapa del proyecto. Es un asistente inteligente orientado a apoyar procesos de desarrollo, integración y validación técnica. Definí la estrategia de integración con Gemini y n8n para automatizar flujos, reducir tareas manuales y mejorar la productividad de los equipos.",
       },
       {
         title: "Migración on premise a Cloud GCP",
