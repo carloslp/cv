@@ -60,11 +60,11 @@ export const RESUME_DATA = {
         company: "Coppel SA de CV",
         link: "https://coppel.com",
         badges: [],
-        title: "Chief Solutioning / Gerente de Arquitecto de Soluciones",
+        title: "Gerente de Arquitecto de Soluciones",
         logo: null,
         start: "Jul 2024",
         end: null,
-        description: "",
+        description: "Defino la estrategia de arquitectura para iniciativas de transformación digital alineadas con los objetivos del negocio. \nImpulso iniciativas de modernización tecnológica, adopción de servicios Cloud y mejora continua.\nPromuevo estándares de arquitectura  y mejores prácticas",
       },
       {
         company: "Coppel SA de CV",
@@ -74,7 +74,7 @@ export const RESUME_DATA = {
         logo: null,
         start: "Jun 2022",
         end: "Sep 2024",
-        description: "",
+        description: "Lideré equipos multidisciplinarios responsables del diseño, desarrollo e implementación de soluciones para procesos críticos del negocio. \nCoordiné proyectos mediante metodologías ágiles garantizando cumplimiento de alcance, calidad y tiempos. \n Gestioné la comunicación entre negocio, arquitectura, desarrollo, QA, infraestructura y operaciones.",
       },
       {
         company: "Coppel SA de CV",
@@ -84,7 +84,7 @@ export const RESUME_DATA = {
         logo: null,
         start: "Oct 2020",
         end: "Jun 2022",
-        description: "",
+        description: "Diseñé arquitecturas para aplicaciones de misión crítica.  \nParticipé en proyectos de migración tecnológica y modernización de aplicaciones. \nBrindé liderazgo técnico durante todo el ciclo de vida del software. \nEvalué tecnologías emergentes para mejorar rendimiento",
       },
       {
         company: "Coppel SA de CV",
@@ -94,7 +94,7 @@ export const RESUME_DATA = {
         logo: null,
         start: "Mar 2019",
         end: "Oct 2020",
-        description: "",
+        description: "Desarrollé soluciones para plataformas empresariales enfocadas en ventas, inventarios, crédito y operaciones.\nImplementé nuevas funcionalidades e integraciones con aplicaciones corporativas.\nParticipé en análisis funcional, diseño técnico, desarrollo y soporte productivo.\nColaboré con arquitectos y líderes técnicos siguiendo estándares corporativos.",
       },
       {
         company: "GANADERA RUBIO'S, S.P.R. DE R.L.",
@@ -104,7 +104,7 @@ export const RESUME_DATA = {
         logo: null,
         start: "Feb 2019",
         end: "Mar 2019",
-        description: "",
+        description: "Administración de infraestructura tecnológica.\nSoporte técnico a usuarios.\nResolución de incidencias y mantenimiento preventivo.",
       },
       {
         company: "El Tiempo Periódico de Sinaloa · Profesional independiente",
@@ -114,20 +114,29 @@ export const RESUME_DATA = {
         logo: null,
         start: "Ene 2018",
         end: null,
-        description: "• Administración y evolución de plataformas WordPress.\n• Implementación de mejoras enfocadas en seguridad, disponibilidad y mantenimiento.\n• Asesoría tecnológica y soporte para garantizar la continuidad operativa.",
+        description: "Administración y evolución de plataformas WordPress.\nImplementación de mejoras enfocadas en seguridad, disponibilidad y mantenimiento.\nAsesoría tecnológica y soporte para garantizar la continuidad operativa.",
       },
     ],
     skills: [
-      "JavaScript",
-      "TypeScript",
+      "Google Cloud Platform (GCP)",
       "Docker",
-      "Node.js",
-      "Git",
-      "Google Cloud Platform",
       "NGINX",
       "PaaS",
+      "Cloud Migration",
+      "Google Cloud Platform",
       "PHP",
-      "PostgreSQL"
+      "Node.js",
+      "Java",
+      "C++",
+      "Angular",
+      "TypeScript",
+      "JavaScript",
+      "PostgreSQL",
+      "Scrum",
+      "Agile",
+      "DevOps",
+      "CI/CD",
+      "Git"
     ],
     projects: [
       {
@@ -143,62 +152,26 @@ export const RESUME_DATA = {
       {
         title: "Migración PDAs de inventarios de Tienda",
         techStack: ["Lider de Proyectos", "Android", "PHP"],
-        description: "Migracion de PDA Windows Mobile a Android.",
+        description: "Lideré la modernización de dispositivos de inventario migrando de Windows Mobile hacia Android, facilitando la continuidad tecnológica de la operación.",
         logo: null
       },
       {
-        title: "Inventarios Automáticos y Re-Impresión de Etiquetas Web",
-        techStack: ["Lider de Proyectos", "Angular", "PHP", "Microservicios"],
-        description: "Herramienta para inventario de ropa no programado y migracion de etiquetas de ropa a web a demanda.",
-        logo: null
-      },
-      {
-        title: "Administrador para delegación de huellas de gerente",
-        techStack: ["Lider de Proyecto", "Angular", "PHP", "C++","PostgreSQL","Microservicios"],
-        description: "Administrador de permisos de gerentes temporales para colaboradores especificos.",
-        logo: null
-      },
-      {
-        title: "Migración Solicitud de Crédito y Llamadas CAT",
+        title: "Remediación Tecnológica",
         techStack: ["Lider de Proyecto", "PHP","JavaScript", "C++","PostgreSQL"],
-        description: "Remediacion de vulnerabilidades siguiendo n-2, sistema operativo y lenguajes.",
+        description: "Coordiné iniciativas para la actualización de sistemas y mitigación de vulnerabilidades, garantizando cumplimiento de estándares tecnológicos y reducción de deuda técnica.",
         logo: null,
       },
       {
         title: "QR MercadoPago en Punto de Venta.",
         techStack: ["Arquitecto de Software", "Angular","TypeScript", "C++", "Java", "PostgreSQL", "Docker"],
-        description: "Definicion de Arquitectura e integracion de QR de MercadoPago en Punto de Venta Coppel.",
-        logo: null,
-      },
-      {
-        title: "Crédito Coppel (Argentina) en la Web",
-        techStack: ["Arquitecto de Software","C++", "Java", "PostgreSQL"],
-        description: "Definicion de Arquitectura y codificacion de Apis para venta credito de cliente Coppel en Internet.",
-        logo: null,
-      },
-      {
-        title: "Incorporación de Descuentos a Afiliados",
-        techStack: ["Desarrollador","Angular", "TypeScript", "C++","PostgreSQL"],
-        description: "Modulo que permite aplicar descuentos de afialiados a articulos de ropa y muebles.",
+        description: "Definí la arquitectura para integrar pagos mediante códigos QR en el sistema de Punto de Venta, colaborando con equipos multidisciplinarios para habilitar nuevos medios de pago.",
         logo: null,
       },
       {
         title: "Unificación de Sistemas en Tienda",
         techStack: ["Desarrollador","Angular", "TypeScript", "C++", "Nginx", "PostgreSQL"],
-        description: "Unificación de sistemas de venta de ropa y muebles, asi como modulo de complementarios a la venta.",
+        description: "Participé en la consolidación de plataformas comerciales para simplificar procesos operativos y mejorar la experiencia del usuario.",
         logo: null,
-      },
-      {
-        title: "El Tiempo Periódico de Sinaloa",
-        techStack: [
-          "WordPress",
-        ],
-        description: "Periódico local",
-        logo: null,
-        link: {
-          label: "eltiempodesinaloa.com",
-          href: "https://eltiempodesinaloa.com/",
-        },
       },
     ],
     certifications: [
