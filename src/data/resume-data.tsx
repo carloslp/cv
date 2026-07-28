@@ -25,7 +25,7 @@ export const RESUME_DATA = {
     initials: "JC",
     location: "Culiacan, Sin.",
     locationLink: "#",
-    about: "Chief Solutioning Coppel Argentina.",
+    about: "Gerente de Arquitectura de Soluciones en Coppel Argentina.",
     summary:
       "Ingeniero en Sistemas Computacionales con Maestría en Gestión de Tecnologías de la Información y más de siete años de experiencia. He desarrollado mi carrera evolucionando desde desarrollador hasta Gerente de Arquitectura de Soluciones, liderando equipos multidisciplinarios, definiendo estrategias tecnológicas y colaborando con ejecutivos, áreas de negocio y equipos de ingeniería para convertir objetivos estratégicos en soluciones escalables, seguras y orientadas al negocio.",
     avatarUrl: "https://github.com/carloslp/cv/blob/00c48d9ec3543941b119012e7d178a4edce8f6ca/src/data/profile.jpeg?raw=true",
@@ -142,12 +142,7 @@ export const RESUME_DATA = {
       {
         title: "Migración on premise a Cloud GCP",
         techStack: ["Lider de Proyectos","GKE", "Docker"],
-        description: "Migracion de servicio r",
-        logo: Minimal,
-        link: {
-          label: "useminimal.com",
-          href: "https://useminimal.com/",
-        },
+        description: "Lideré la definición técnica para la ejecución provisional de servicios hacia una arquitectura basada en Google Cloud Platform.",
       },
       {
         title: "Migración PDAs de inventarios de Tienda",
