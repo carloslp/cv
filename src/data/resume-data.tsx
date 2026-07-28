@@ -140,6 +140,11 @@ export const RESUME_DATA = {
     ],
     projects: [
       {
+        title: "DIVAS - Development, Integration & Verification Asssistant System",
+        techStack: ["Gerente de Arquitectura de Soluciones TI","Gemini", "N8N"],
+        description: "Lideré el desarrollo, integración y verificación del sistema DIVAS, asegurando la calidad y eficiencia en cada etapa del proyecto.",
+      },
+      {
         title: "Migración on premise a Cloud GCP",
         techStack: ["Lider de Proyectos","GKE", "Docker"],
         description: "Lideré la definición técnica para la ejecución provisional de servicios hacia una arquitectura basada en Google Cloud Platform.",
